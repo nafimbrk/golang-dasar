@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// var name string (kalo tidak langsung di inisialisasi harus pakai tipe data)
-	// tanpa var (asalkan pake := dan itu hanya berlaku pas awal inisialisasi, saat mau mengubah tetep =)
+	// tanpa var (asalkan pake := dan itu hanya berlaku pas awal inisialisasi, saat mau mengubah tetep = dan juga harus diinisialisasi value nya)
 	name := "Eko Kurniawan"
 	fmt.Println(name)
 
