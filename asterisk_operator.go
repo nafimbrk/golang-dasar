@@ -10,6 +10,9 @@ func main() {
 	adddress1 := Address{"Subang", "Jawa Barat", "Indonesia"}
 	adddress2 := &adddress1 // pointer
 
+	// adddress1 := Address{"Subang", "Jawa Barat", "Indonesia"}  // yang diatas sama kaya ini tipe datanya
+	// adddress2 := &adddress1
+
 	adddress2.City = "Bandung"
 	fmt.Println(adddress1) // ikut berubah
 	fmt.Println(adddress2) // berubah menjadi bandung
